@@ -75,6 +75,7 @@ class MainActivity : Activity(), ViewPager.OnPageChangeListener {
         return BitmapFactory.decodeStream(inputStream, null, opt)
     }
 
+    /*******************OnPageChangeListener*******************/
     override fun onPageScrollStateChanged(state: Int) {
 
     }
